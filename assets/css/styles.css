@@ -1939,7 +1939,7 @@ p.card-text {
 
 label {
     font-weight: 500;
-    color: #666;
+    color: #9e0039;
     display: inline-block;
     margin-bottom: 8px;
     margin-bottom: .5rem;
@@ -2344,14 +2344,14 @@ table.dataTable thead td {
     position: absolute;
     left: 0;
     top: 0;
-    color: #b3b2b2;
+    color: #9e0039;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
 
 .form-gp.focused label {
     top: -15px;
-    color: #7e74ff;
+    color: #9e0039;
 }
 
 .form-gp input {
@@ -2398,7 +2398,7 @@ table.dataTable thead td {
     height: 50px;
     border: none;
     background: #fff;
-    color: #585b5f;
+    color: #9e0039;
     border-radius: 40px;
     text-transform: uppercase;
     letter-spacing: 0;
@@ -2410,7 +2410,7 @@ table.dataTable thead td {
 }
 
 .submit-btn-area button:hover {
-    background: #2c71da;
+    background: #9e0039;
     color: #ffffff;
 }
 
