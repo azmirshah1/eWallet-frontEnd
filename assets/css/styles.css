@@ -682,14 +682,14 @@ ul.breadcrumbs {
     display: block;
     font-size: 14px;
     font-weight: 400;
-    color: #7801ff;
+    color: #9e0039;
     letter-spacing: 0;
     margin-right: 16px;
     position: relative;
 }
 
 .breadcrumbs li a:before {
-    content: '/';
+    /*content: '/';*/
     color: #768387;
     position: absolute;
     right: -13px;
@@ -713,7 +713,7 @@ ul.breadcrumbs {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     background: -webkit-linear-gradient(left, #8914fe 0%, #8063f5 100%);
-    background: linear-gradient(to right, #8914fe 0%, #8063f5 100%);
+    background: linear-gradient(to right, #9e0039 0%, #8063f5 100%);
     padding: 17px 38px;
     position: relative;
 }
