@@ -1301,8 +1301,8 @@ table.dbkit-table tr td {
 }
 
 .sbg1 {
-    background: -webkit-linear-gradient(291deg, rgb(77, 77, 253) 0%, rgb(108, 143, 234) 100%);
-    background: linear-gradient(159deg, rgb(77, 77, 253) 0%, rgb(108, 143, 234) 100%);
+    background: -webkit-linear-gradient(291deg, rgb(158, 0, 57) 0%, rgb(158, 0, 57) 100%);
+    background: linear-gradient(159deg, rgb(158, 0, 57) 0%, rgb(158, 0, 57) 100%);
 }
 
 .sbg2 {
