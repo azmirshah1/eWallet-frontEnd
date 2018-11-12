@@ -142,27 +142,61 @@
                                         <a class="nav-link" id="v-pills-adawallet-tab" data-toggle="pill" href="#v-pills-adawallet" role="tab" aria-controls="v-pills-adawallet" aria-selected="false">Cardano Wallet</a>
                                         <a class="nav-link" id="v-pills-ltcwallet-tab" data-toggle="pill" href="#v-pills-ltcwallet" role="tab" aria-controls="v-pills-ltcwallet" aria-selected="false">Litecoin Wallet</a>
                                     </div>
-                                    <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="col-lg-10 tab-content" id="v-pills-tabContent">
                                         <div class="tab-pane fade show active" id="v-pills-btcwallet" role="tabpanel" aria-labelledby="v-pills-btcwallet-tab">
-                                        <!-- seo fact area start -->
-                                        <div class="col-lg-12">
-                                            <div class="row">
-                                                <div class="col-lg-4">
-                                                    <h4> BTC </h4>
-                                                    <h4> 0.000554 btc </h4>
-                                                    <h6> ( ~ RM 2582 ) </h6>  
+                                        <div class="row">
+                                                <div class="col-lg-2">
+                                                    <h4>0.000542<br> BTC </h4>
+                                                    <h6> ~ (RM 5000) </h6>
                                                 </div>
-                                                <div class="col-lg-8 cen">
-                                                    <p >Bitcoin Wallet</p>
-                                                     <p> Name: Azmir Shah<br>
-                                                         Address: 1BoatSLRHtKNngkdXEeobR76b53LETtpyT <br/>
-                                                         Amount: 0.000542 (RM 5000)
-                                                    </p>    
+                                                <div class="col-lg-10">
+                                                <p>Bitcoin Wallet</p>
+                                                <p> Name: Azmir Shah<br>
+                                                     Address: 1BoatSLRHtKNngkdXEeobR76b53LETtpyT <br/>
+                                                     Amount: 0.000542 (RM 5000)
+                                                </p> 
+                                                </div>
+                                        </div> 
+                                            <!-- tab start -->
+                                            <div class="col-lg-10 mt-5">
+                                                <div class="card">
+                                                        <ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
+                                                            <li class="nav-item">
+                                                                <a class="nav-link active" id="pills-send-tab" data-toggle="pill" href="#pills-send" role="tab" aria-controls="pills-send" aria-selected="true">Send</a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" id="pills-profile-receive" data-toggle="pill" href="#pills-receive" role="tab" aria-controls="pills-receive" aria-selected="false">Receive</a>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="tab-content" id="pills-tabContent">
+                                                            <div class="tab-pane fade show active" id="pills-send" role="tabpanel" aria-labelledby="pills-send-tab">
+                                                                <!-- Form for sed bitcoin -->
+                                                                <form>
+                                                                    <div class="col-lg-6 login-form-body">
+                                                                        <div class="form-gp">
+                                                                            <label>Bitcoin Address</label>
+                                                                            <input type="text">
+                                                                            <i class="fa fa-user"></i>
+                                                                        </div>
+                                                                        <div class="form-gp">
+                                                                            <label>Amount</label>
+                                                                            <input type="password">
+                                                                            <i class="fa fa-money"></i>
+                                                                        </div>
+                                                                        <div class="submit-btn-area">
+                                                                            <button id="form_submit" type="submit">Send Bitcoin<i class="fa fa-paper-plane"></i></button>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                                <!-- Send Bitcoin End-->
+                                                            </div>
+                                                            <div class="tab-pane fade" id="pills-receive" role="tabpanel" aria-labelledby="pills-receive-tab">
+                                                                <p>Bitcoin</p>
+                                                            </div>
+                                                        </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <!-- seo fact area end -->
-                                        </p>
+                                            <!-- tab end -->
                                         </div>
                                         <div class="tab-pane fade" id="v-pills-ethwallet" role="tabpanel" aria-labelledby="v-pills-ethwallet-tab">
                                             <p>Etherium Wallet</p>
