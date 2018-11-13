@@ -145,32 +145,35 @@
                                     <div class="col-lg-10 tab-content" id="v-pills-tabContent">
                                         <div class="tab-pane fade show active" id="v-pills-btcwallet" role="tabpanel" aria-labelledby="v-pills-btcwallet-tab">
                                         <div class="row">
-                                                <div class="col-lg-2">
-                                                    <h4>0.000542<br> BTC </h4>
-                                                    <h6> ~ (RM 5000) </h6>
-                                                </div>
-                                                <div class="col-lg-10">
+                                            <!-- Bitcoin Details -->
+                                            <div class="col-lg-2">
+                                                <h4>0.000542<br> BTC </h4>
+                                                <h6> ~ (RM 5000) </h6>
+                                            </div>
+                                            <div class="col-lg-10">
                                                 <p>Bitcoin Wallet</p>
                                                 <p> Name: Azmir Shah<br>
                                                      Address: 1BoatSLRHtKNngkdXEeobR76b53LETtpyT <br/>
                                                      Amount: 0.000542 (RM 5000)
                                                 </p> 
-                                                </div>
+                                            </div>
+                                            <!-- Bitcoin Details End-->
                                         </div> 
-                                            <!-- tab start -->
+                                            <!-- tab Bitcoin start -->
                                             <div class="col-lg-10 mt-5">
                                                 <div class="card">
                                                         <ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
                                                             <li class="nav-item">
-                                                                <a class="nav-link active" id="pills-send-tab" data-toggle="pill" href="#pills-send" role="tab" aria-controls="pills-send" aria-selected="true">Send</a>
+                                                                <a class="nav-link active" id="pills-sendbtc-tab" data-toggle="pill" href="#pills-sendbtc" role="tab" aria-controls="pills-sendbtc" aria-selected="true">Send</a>
                                                             </li>
                                                             <li class="nav-item">
-                                                                <a class="nav-link" id="pills-profile-receive" data-toggle="pill" href="#pills-receive" role="tab" aria-controls="pills-receive" aria-selected="false">Receive</a>
+                                                                <a class="nav-link" id="pills-profile-receivebtc" data-toggle="pill" href="#pills-receivebtc" role="tab" aria-controls="pills-receivebtc" aria-selected="false">Receive</a>
                                                             </li>
                                                         </ul>
                                                         <div class="tab-content" id="pills-tabContent">
-                                                            <div class="tab-pane fade show active" id="pills-send" role="tabpanel" aria-labelledby="pills-send-tab">
+                                                            <div class="tab-pane fade show active" id="pills-sendbtc" role="tabpanel" aria-labelledby="pills-sendbtc-tab">
                                                                 <!-- Form for sed bitcoin -->
+                                                                <h4 > <br> Send Bitcoin </h4>
                                                                 <form>
                                                                     <div class="col-lg-6 login-form-body">
                                                                         <div class="form-gp">
@@ -190,26 +193,204 @@
                                                                 </form>
                                                                 <!-- Send Bitcoin End-->
                                                             </div>
-                                                            <div class="tab-pane fade" id="pills-receive" role="tabpanel" aria-labelledby="pills-receive-tab">
-                                                                <p>Bitcoin</p>
+                                                            <div class="tab-pane fade" id="pills-receivebtc" role="tabpanel" aria-labelledby="pills-receivebtc-tab">
+                                                                <!-- Form for Receive bitcoin -->
+                                                                <div class="col-lg-6">
+                                                                <h4 align="center"> <br> Receive Bitcoin </h4>
+                                                                <div align="center"> <img src="assets/images/qrcode/qrcode.png"> </div>
+                                                                <h6 align="center">1BoatSLRHtKNngkdXEeobR76b53LETtpyT</h6>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                 </div>
                                             </div>
-                                            <!-- tab end -->
+                                            <!-- tab Bitcoin end -->
                                         </div>
                                         <div class="tab-pane fade" id="v-pills-ethwallet" role="tabpanel" aria-labelledby="v-pills-ethwallet-tab">
-                                            <p>Etherium Wallet</p>
+                                        <!-- Etherium Details -->
+                                        <div class="row">
+                                        <div class="col-lg-2">
+                                             <h4>0.000542<br> ETH </h4>
+                                             <h6> ~ (RM 5000) </h6>
+                                        </div>
+                                        <div class="col-lg-10">
+                                             <p>Etherium Wallet</p>
                                              <p> Name: Azmir Shah<br>
                                                  Address: 1BoatSLRHtKNngkdXEeobR76b53LETtpyT <br/>
                                                  Amount: 0.000542 (RM 5000)
-                                            </p>     
+                                             </p> 
+                                        </div>
+                                        </div> 
+                                        <!-- tab Etherium start -->
+                                            <div class="col-lg-10 mt-5">
+                                                <div class="card">
+                                                        <ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
+                                                            <li class="nav-item">
+                                                                <a class="nav-link active" id="pills-sendeth-tab" data-toggle="pill" href="#pills-sendeth" role="tab" aria-controls="pills-sendeth" aria-selected="true">Send</a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" id="pills-profile-receiveeth" data-toggle="pill" href="#pills-receiveeth" role="tab" aria-controls="pills-receiveeth" aria-selected="false">Receive</a>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="tab-content" id="pills-tabContent">
+                                                            <div class="tab-pane fade show active" id="pills-sendeth" role="tabpanel" aria-labelledby="pills-sendeth-tab">
+                                                                <!-- Form for send etherium -->
+                                                                <h4 > <br> Send Etherium </h4>
+                                                                <form>
+                                                                    <div class="col-lg-6 login-form-body">
+                                                                        <div class="form-gp">
+                                                                            <label>Etherium Address</label>
+                                                                            <input type="text">
+                                                                            <i class="fa fa-user"></i>
+                                                                        </div>
+                                                                        <div class="form-gp">
+                                                                            <label>Amount</label>
+                                                                            <input type="password">
+                                                                            <i class="fa fa-money"></i>
+                                                                        </div>
+                                                                        <div class="submit-btn-area">
+                                                                            <button id="form_submit" type="submit">Send Etherium<i class="fa fa-paper-plane"></i></button>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                                <!-- Send Etherium End-->
+                                                            </div>
+                                                            <div class="tab-pane fade" id="pills-receiveeth" role="tabpanel" aria-labelledby="pills-receiveeth-tab">
+                                                                <!-- Form for Receive Etherium -->
+                                                                <div class="col-lg-6">
+                                                                <h4 align="center"> <br> Receive Etherium </h4>
+                                                                <div align="center"> <img src="assets/images/qrcode/qrcode.png"> </div>
+                                                                <h6 align="center">1BoatSLRHtKNngkdXEeobR76b53LETtpyT</h6>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <!-- tab Etherium end -->
                                         </div>
                                         <div class="tab-pane fade" id="v-pills-adawallet" role="tabpanel" aria-labelledby="v-pills-adawallet-tab">
-                                            <p>Cardano Wallet</p>
+                                        <!-- Cardano Details -->
+                                        <div class="row">
+                                        <div class="col-lg-2">
+                                             <h4>0.000542<br> ADA </h4>
+                                             <h6> ~ (RM 5000) </h6>
+                                        </div>
+                                        <div class="col-lg-10">
+                                             <p>Cardano Wallet</p>
+                                             <p> Name: Azmir Shah<br>
+                                                 Address: 1BoatSLRHtKNngkdXEeobR76b53LETtpyT <br/>
+                                                 Amount: 0.000542 (RM 5000)
+                                             </p> 
+                                        </div>
+                                        </div> 
+                                        <!-- tab Cardano start -->
+                                            <div class="col-lg-10 mt-5">
+                                                <div class="card">
+                                                        <ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
+                                                            <li class="nav-item">
+                                                                <a class="nav-link active" id="pills-sendAda-tab" data-toggle="pill" href="#pills-sendAda" role="tab" aria-controls="pills-sendAda" aria-selected="true">Send</a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" id="pills-profile-receiveAda" data-toggle="pill" href="#pills-receiveAda" role="tab" aria-controls="pills-receiveAda" aria-selected="false">Receive</a>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="tab-content" id="pills-tabContent">
+                                                            <div class="tab-pane fade show active" id="pills-sendAda" role="tabpanel" aria-labelledby="pills-sendAda-tab">
+                                                                <!-- Form for send Cardano -->
+                                                                <h4 > <br> Send Cardano </h4>
+                                                                <form>
+                                                                    <div class="col-lg-6 login-form-body">
+                                                                        <div class="form-gp">
+                                                                            <label>Cardano Address</label>
+                                                                            <input type="text">
+                                                                            <i class="fa fa-user"></i>
+                                                                        </div>
+                                                                        <div class="form-gp">
+                                                                            <label>Amount</label>
+                                                                            <input type="password">
+                                                                            <i class="fa fa-money"></i>
+                                                                        </div>
+                                                                        <div class="submit-btn-area">
+                                                                            <button id="form_submit" type="submit">Send Cardano<i class="fa fa-paper-plane"></i></button>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                                <!-- Send Cardano End-->
+                                                            </div>
+                                                            <div class="tab-pane fade" id="pills-receiveAda" role="tabpanel" aria-labelledby="pills-receiveAda-tab">
+                                                                <!-- Form for Receive Cardano -->
+                                                                <div class="col-lg-6">
+                                                                <h4 align="center"> <br> Receive Cardano </h4>
+                                                                <div align="center"> <img src="assets/images/qrcode/qrcode.png"> </div>
+                                                                <h6 align="center">1BoatSLRHtKNngkdXEeobR76b53LETtpyT</h6>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <!-- tab Cardano end -->
                                         </div>
                                         <div class="tab-pane fade" id="v-pills-ltcwallet" role="tabpanel" aria-labelledby="v-pills-ltcwallet-tab">
-                                            <p>Litecoin Wallet</p>
+                                        <!-- Litecoin Details -->
+                                        <div class="row">
+                                        <div class="col-lg-2">
+                                             <h4>0.000542<br> LTC </h4>
+                                             <h6> ~ (RM 5000) </h6>
+                                        </div>
+                                        <div class="col-lg-10">
+                                             <p>Litecoin Wallet</p>
+                                             <p> Name: Azmir Shah<br>
+                                                 Address: 1BoatSLRHtKNngkdXEeobR76b53LETtpyT <br/>
+                                                 Amount: 0.000542 (RM 5000)
+                                             </p> 
+                                        </div>
+                                        </div> 
+                                        <!-- tab Litecoin start -->
+                                            <div class="col-lg-10 mt-5">
+                                                <div class="card">
+                                                        <ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
+                                                            <li class="nav-item">
+                                                                <a class="nav-link active" id="pills-sendLtc-tab" data-toggle="pill" href="#pills-sendLtc" role="tab" aria-controls="pills-sendLtc" aria-selected="true">Send</a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" id="pills-profile-receiveLtc" data-toggle="pill" href="#pills-receiveLtc" role="tab" aria-controls="pills-receiveLtc" aria-selected="false">Receive</a>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="tab-content" id="pills-tabContent">
+                                                            <div class="tab-pane fade show active" id="pills-sendLtc" role="tabpanel" aria-labelledby="pills-sendLtc-tab">
+                                                                <!-- Form for send Litecoin -->
+                                                                <h4 > <br> Send Litecoin </h4>
+                                                                <form>
+                                                                    <div class="col-lg-6 login-form-body">
+                                                                        <div class="form-gp">
+                                                                            <label>Litecoin Address</label>
+                                                                            <input type="text">
+                                                                            <i class="fa fa-user"></i>
+                                                                        </div>
+                                                                        <div class="form-gp">
+                                                                            <label>Amount</label>
+                                                                            <input type="password">
+                                                                            <i class="fa fa-money"></i>
+                                                                        </div>
+                                                                        <div class="submit-btn-area">
+                                                                            <button id="form_submit" type="submit">Send Litecoin<i class="fa fa-paper-plane"></i></button>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                                <!-- Send Litecoin End-->
+                                                            </div>
+                                                            <div class="tab-pane fade" id="pills-receiveLtc" role="tabpanel" aria-labelledby="pills-receiveLtc-tab">
+                                                                <!-- Form for Receive Litecoin -->
+                                                                <div class="col-lg-6">
+                                                                <h4 align="center"> <br> Receive Litecoin </h4>
+                                                                <div align="center"> <img src="assets/images/qrcode/qrcode.png"> </div>
+                                                                <h6 align="center">1BoatSLRHtKNngkdXEeobR76b53LETtpyT</h6>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <!-- tab Litecoin end -->
                                         </div>
                                     </div>
                                 </div>
