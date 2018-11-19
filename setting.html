@@ -44,7 +44,7 @@
                         <div class="breadcrumbs-area clearfix">
                             <a href="index.html"><img class="page-title pull-left" src="assets/images/login/ewallet logo.png" alt="avatar"></a>
                             <ul class="breadcrumbs pull-left"><br>
-                                <li><a><h3>Wallet</h3></a></li>
+                                <li><a><h3>Profile</h3></a></li>
 
                             </ul>
                         </div>
@@ -72,42 +72,196 @@
                                 <div class="d-md-flex">
                                     <div class="nav flex-column nav-pills mr-4 mb-3 mb-sm-0" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                                         <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-                                        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
                                         <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
                                         <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
                                     </div>
 
-                                    <!-- Home tab -->
+                                    <!-- Tab start -->
                                     <div class="tab-content" id="v-pills-tabContent">
-                                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                                            <!-- Inside Start -->
-                                            <h4> Your Profile<br></h4>
-                                            <br>
-                                            <div class="row col-lg-12">
-                                                <div class="col-sm-6">
-                                                <div class="profileImage">
-                                                    <img  src="assets/images/profile/image12.png" width=80>
+                                    <!-- Profile tab -->
+                                        <div class="col-lg-12 tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                            <h4> Your Profile <br> </br></h4>
+                                            <div class="row">
+                                                <!-- Profile header -->
+                                                <div class="col-lg-4 col-sm-3">
+                                                    <img class="right rightSize profileImage" src="assets/images/profile/image12.png">
+                                                </div>
+                                                <div class="col-lg-8 col-sm-6">
+                                                    <p> Name    : Azmir Shah<br>
+                                                        Email   : azmirshah1@gmail.com<br/>
+                                                        Phone No: 0176591091 </p>
+                                                        State   : Johor
+                                                    </p> 
+                                                </div>
+                                            </div> 
+                                            <!-- Profile header end-->
+                                           <!-- Edit profile start -->
+                                            <div class="main-content-inner">
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-ml-12">
+                                                        <div class="row">
+                                                            <!-- Textual inputs start -->
+                                                            <div class="col-12 mt-5">
+                                                                <div class="card">
+                                                                    <div class="card-body">
+                                                                        <h4 class="header-title">Profile Details</h4>
+                                                                        <!-- Name start -->
+                                                                        <div class="form-group">
+                                                                            <label for="name-input" class="col-form-label">Name</label>
+                                                                            <input class="form-control" type="text" value="Azmir Shah" id="name-input">
+                                                                        </div>
+                                                                        <!-- IC Number start -->
+                                                                        <div class="form-group">
+                                                                            <label for="ic-input" class="col-form-label">IC Number</label>
+                                                                            <input class="form-control" type="text" value="950319016115" id="ic-input">
+                                                                        </div>
+                                                                        <!-- Date of birth start -->
+                                                                        <div class="form-group">
+                                                                            <label for="dob-input" class="col-form-label">Date of Birth</label>
+                                                                            <input class="form-control" type="date" value="12/03/1995" id="dob-input">
+                                                                        </div>
+                                                                        <!-- Phone Number start -->
+                                                                        <div class="form-group">
+                                                                            <label for="phone-input" class="col-form-label">Phone Number</label>
+                                                                            <input class="form-control" type="tel" value="+60176591091" id="Phone-input">
+                                                                        </div>
+                                                                        <!-- email start -->
+                                                                         <div class="form-group">
+                                                                            <label for="example-email-input" class="col-form-label">Email</label>
+                                                                            <input class="form-control" type="email" value="azmirshah1@gmail.com" id="example-email-input">
+                                                                        </div>
+                                                                        <!-- Address start -->
+                                                                        <div class="form-group">
+                                                                            <label for="address-input" class="col-form-label">Address</label>
+                                                                            <input class="form-control" type="text" value="310, lorong bahagia" id="address-input">
+                                                                        </div>
+                                                                        <!-- Country start -->
+                                                                        <div class="form-group">
+                                                                            <label for="country-input" class="col-form-label">Country</label>
+                                                                            <input class="form-control" type="search" value="Malaysia" id="country-input">
+                                                                        </div>
+                                                                        <!-- Password start -->
+                                                                        <div class="form-group">
+                                                                            <label for="inputPassword" class="">Password</label>
+                                                                            <input type="password" class="form-control" id="inputPassword" value="inputPassword" placeholder="Password">
+                                                                        </div>
+                                                                        <!-- Profile Picture start -->
+                                                                        <div class="input-group">
+                                                                            <div class="custom-file">
+                                                                                <input type="file" class="custom-file-input" id="inputGroupFile04">
+                                                                                <label class="custom-file-label" for="inputGroupFile04">Upload Profile Picture</label>
+                                                                            </div>
+                                                                            <div class="input-group-append">
+                                                                                <button class="btn btn-outline-secondary" type="button">Upload</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                        <div class="col-lg-12 row">
+                                                                        <div class="col-lg-2 col-sm-2">
+                                                                            <button class="btn btn-rounded btn-primary mb-3" type="reset" value="Reset">Reset</button>
+                                                                        </div>
+                                                                        <div class="col-lg-2 col-sm-2">
+                                                                            <button class= "btn btn-rounded btn-primary mb-3" type="submit" value="Submit">Submit</button>
+                                                                        </div>
+                                                                        </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- Textual inputs end -->
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                              <div class="col-lg-7">
-                                              <span> <b>Name</b></span>
-                                              <p>Mohd Azmir Shah Bin Azmi</p>
-                                              <span><b>Email</b></span>
-                                              <p>admin@azmirshah.com</p>
-                                          </div>
-                                            </div>
-                                        
-                                             <!-- Inside end -->
+
                                         </div>
-                                        <!-- Home tab end -->
-                                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat blanditiis eaque ab qui accusamus laudantium perspiciatis sint quibusdam at eius consequatur quos possimus aspernatur debitis deleniti sed odit provident repudiandae suscipit officiis, tempora voluptas, excepturi perferendis. Quasi delectus tempora temporibus ipsa soluta mollitia, doloremque corrupti labore, quae voluptatem obcaecati consequuntur ad ipsum fugit impedit cum. Facere, ea? Eveniet quisquam ratione voluptate rerum tempora, consectetur assumenda. Porro temporibus suscipit corporis nulla?</p>
-                                        </div>
+                                         <!-- Profile tab end -->
                                         <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat blanditiis eaque ab qui accusamus laudantium perspiciatis sint quibusdam at eius consequatur quos possimus aspernatur debitis deleniti sed odit provident repudiandae suscipit officiis, tempora voluptas, excepturi perferendis. Quasi delectus tempora temporibus ipsa soluta mollitia, doloremque corrupti labore, quae voluptatem obcaecati consequuntur ad ipsum fugit impedit cum. Facere, ea? Eveniet quisquam ratione voluptate rerum tempora, consectetur assumenda. Porro temporibus suscipit corporis nulla?</p>
+                                         <!-- timeline area start -->
+                                            <h4 class="header-title">Timeline</h4>
+                                            <div class="timeline-area">
+                                                 <div class="timeline-task">
+                                                    <div class="icon bg1">
+                                                        <i class="fa fa-envelope"></i>
+                                                    </div>
+                                                    <div class="tm-title">
+                                                        <h4>Rashed sent you an email</h4>
+                                                        <span class="time"><i class="ti-time"></i>09:35</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio itaque at.
+                                                    </p>
+                                                </div>
+                                                <div class="timeline-task">
+                                                    <div class="icon bg2">
+                                                        <i class="fa fa-exclamation-triangle"></i>
+                                                    </div>
+                                                    <div class="tm-title">
+                                                        <h4>Rashed sent you an email</h4>
+                                                        <span class="time"><i class="ti-time"></i>09:35</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio itaque at.
+                                                    </p>
+                                                </div>
+                                                <div class="timeline-task">
+                                                    <div class="icon bg2">
+                                                        <i class="fa fa-exclamation-triangle"></i>
+                                                    </div>
+                                                    <div class="tm-title">
+                                                        <h4>Rashed sent you an email</h4>
+                                                        <span class="time"><i class="ti-time"></i>09:35</span>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-task">
+                                                    <div class="icon bg3">
+                                                        <i class="fa fa-bomb"></i>
+                                                    </div>
+                                                    <div class="tm-title">
+                                                        <h4>Rashed sent you an email</h4>
+                                                        <span class="time"><i class="ti-time"></i>09:35</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio itaque at.
+                                                    </p>
+                                                </div>
+                                                <div class="timeline-task">
+                                                    <div class="icon bg3">
+                                                        <i class="ti-signal"></i>
+                                                    </div>
+                                                    <div class="tm-title">
+                                                        <h4>Rashed sent you an email</h4>
+                                                        <span class="time"><i class="ti-time"></i>09:35</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio itaque at.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!-- timeline area end -->
                                         </div>
                                         <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat blanditiis eaque ab qui accusamus laudantium perspiciatis sint quibusdam at eius consequatur quos possimus aspernatur debitis deleniti sed odit provident repudiandae suscipit officiis, tempora voluptas, excepturi perferendis. Quasi delectus tempora temporibus ipsa soluta mollitia, doloremque corrupti labore, quae voluptatem obcaecati consequuntur ad ipsum fugit impedit cum. Facere, ea? Eveniet quisquam ratione voluptate rerum tempora, consectetur assumenda. Porro temporibus suscipit corporis nulla?</p>
+                                            <h4> Setting </h4>
+                            <!-- Checkboxes start -->
+                                        <p class="text-muted mb-3">For even more customization and cross browser consistency, use our completely custom form elements to replace the browser defaults. They’re built on top of semantic and accessible markup, so they’re solid replacements for any default form control.</p>
+                                        <form action="#">
+                                            <b class="text-muted mb-3 mt-4 d-block">Inline Checkbox:</b>
+                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                <input type="checkbox" checked class="custom-control-input" id="customCheck5">
+                                                <label class="custom-control-label" for="customCheck5">Enable Two-Factor Authentication</label>
+                                            </div>
+                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck6">
+                                                <label class="custom-control-label" for="customCheck6">Enable Email Verification</label>
+                                            </div>
+                                            <div class="mb-3"></div>
+                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                <input type="checkbox" checked class="custom-control-input" id="customCheck5">
+                                                <label class="custom-control-label" for="customCheck5">Disconnect all device</label>
+                                            </div>
+                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                <input type="checkbox" checked class="custom-control-input" id="customCheck5">
+                                                <label class="custom-control-label" for="customCheck5">Alternative Email</label>
+                                            </div>
+                                        </form>
+
+                            <!-- Checkboxes end -->
+                                            <!-- Test End -->
+
                                         </div>
                                     </div>
                                 </div>
