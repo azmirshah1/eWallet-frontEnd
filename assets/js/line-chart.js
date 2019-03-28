@@ -121,8 +121,8 @@ if ($('#coin_sales3').length) {
             labels: ["January", "February", "March", "April", "May", "June", "July", "January", "February", "March", "April", "May"],
             datasets: [{
                 label: "Sales",
-                backgroundColor: "rgba(247, 163, 58, 0.1)",
-                borderColor: '#fd9d24',
+                backgroundColor: "rgb(1, 163, 44, 0.1)",
+                borderColor: '#01a32c',
                 fill: true,
                 data: [18, 41, 50, 49, 20, 65, 50, 86, 20, 30, 45, 25],
             }]
